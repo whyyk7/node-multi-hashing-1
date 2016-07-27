@@ -6,7 +6,7 @@ extern "C" {
 #endif
 
 void lbry_regenhash(struct work *work);
-
+void lbryhash(const char* input, char* output);
 
 #ifdef __cplusplus
 }
